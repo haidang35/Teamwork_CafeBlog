@@ -1,3 +1,96 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.header-box{
+    overflow: hidden;
+    width: 1920px;
+    height: 800px;
+
+}
+.background-header img{
+  width: 100%;
+}
+.header-box-top{
+    width: 1300px;
+    height: auto;
+   margin-top: -870px;
+    position: relative;
+}
+.header-box-top img{
+    width: 300px;
+}
+.list-nav{
+   position: absolute;
+    margin-top: -172px;
+    margin-left: 460px;
+}
+.list-nav span{
+    display: block;
+    margin-right: 35px;
+    float: left;
+}
+.list-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buy-button{
+    background-color: #ca9318;
+    border-radius: 35px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: 120px;
+    margin-right: 25px;
+}
+.buy-button p{
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header-box-under{
+    margin-top: 50px;
+}
+.header-box-under h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+}
+.header-box-under p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Trispace', sans-serif;
+    display: block;
+    margin-top: 30px;
+}
+div.read-button{
+    width: 220px;
+    height: 70px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+.read-button p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 220px;
+    display: block;
+    margin-top: 8px;
+    background-color: #ca9318;
+    height: 60px;
+    text-align: center;
+    padding-top: 19px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
