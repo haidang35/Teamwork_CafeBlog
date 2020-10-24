@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #ede9e1;
 }
 .header-box{
     overflow: hidden;
@@ -46,6 +47,7 @@ body{
     float: right;
     margin-top: 120px;
     margin-right: 25px;
+    transition: 0.7s;
 }
 .buy-button p{
     padding-top: 10px;
@@ -53,6 +55,9 @@ body{
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+}
+.buy-button a{
+    text-decoration: none;
 }
 .header-box-under{
     margin-top: 50px;
@@ -69,7 +74,7 @@ body{
     display: block;
     margin-top: 30px;
 }
-div.read-button{
+.read-button{
     width: 220px;
     height: 70px;
     margin-top: 50px;
@@ -77,6 +82,7 @@ div.read-button{
     justify-content: center;
     align-items: center;
     border-radius: 35px;
+
 }
 .read-button p{
     font-family: 'Roboto', sans-serif;
@@ -92,5 +98,163 @@ div.read-button{
     padding-top: 19px;
     border-radius: 35px;
     text-transform: uppercase;
+    transition: 0.6s;
 }
+.read-button a{
+    text-decoration: none;
+}
+.buy-button:hover p{
+    color: black;
+}
+.buy-button:hover{
+    background-color: white;
+}
+.read-button:hover p{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+.main-box{
+    margin-top: 100px;
+    height: auto;
+}
+.content-box-1{
+    width: 1920px;
+    height: 500px;
+}
+.content-box-1 img{
+    margin-right: 25px;
+    float: left;
+}
+.description-box-1{
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 85px;
+    margin-top: 54px;
+}
+.description-box-1 h1{
+    font-size: 50px;
+    font-family: 'Trispace', sans-serif;
+
+}
+.description-box-1 p{
+    font-family: 'Trispace', sans-serif;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+.learnmore-button{
+    width: 200px;
+    height: 50px;
+    background-color: #ca9318 ;
+    border-radius: 35px;
+    margin-top: 50px;
+    transition: 0.6s;
+}
+.learnmore-button p{
+    padding-top: 14px;
+    padding-left: 44px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.learnmore-button a{
+    text-decoration: none;
+    color: white;
+}
+.learnmore-button:hover{
+    background-color: black;
+}
+.content-box-2{
+    width: 1920px;
+    height: 837px;
+    overflow: hidden;
+}
+.content-b2-left{
+    width: 952px;
+    background-color: #8c6344;
+    height: 837px;
+    padding: 0 0 0 0;
+    float: left;
+}
+.content-b2-right{
+    width: 968px;
+    padding: 0 0 0 0;
+    float: left;
+}
+.content-b2-right img{
+    height: 837px;
+}
+.des-b2-left{
+    width: 450px;
+    margin-top: 200px;
+    margin-left: 380px;
+}
+.des-b2-left h1{
+    color: white;
+    font-size: 48px;
+    font-family: 'Trispace', sans-serif;
+}
+.des-b2-left p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Trispace', sans-serif;
+    display: block;
+    margin-top: 30px;
+}
+.rm-b2-left{
+    background-color:#ca9318 ;
+    width: 180px;
+    height: 50px;
+    border-radius: 35px;
+    margin-top: 40px;
+}
+.rm-b2-left p{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 13px;
+    padding-left: 36px;
+}
+.content-b2-right{
+}
+.img-box-2{
+    width: 700px;
+    height: auto;
+    margin-top: -740px;
+    margin-left: 50px;
+    overflow: hidden;
+    font-family: 'Trispace', sans-serif;
+}
+.img-box-2 img{
+    width: 84px;
+    height: 84px;
+}
+.img1-b2-right{
+    width: 290px;
+    height: 290px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 0 0 0;
+
+}
+.img1-b2-right h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+.img1-b2-right p{
+    color: white;
+    font-size: 15px;
+    display: block;
+    margin-top: 25px;
+}
+
+
 
