@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc4e9c8b-fd49-484f-b416-651f00197ed3" name="Default Changelist" comment="" />
+    <list default="true" id="bc4e9c8b-fd49-484f-b416-651f00197ed3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,7 +59,10 @@
       <workItem from="1603676709216" duration="10121000" />
       <workItem from="1603696700805" duration="15973000" />
       <workItem from="1603720105784" duration="375000" />
-      <workItem from="1603762169149" duration="377000" />
+      <workItem from="1603762169149" duration="1611000" />
+      <workItem from="1603782236065" duration="9226000" />
+      <workItem from="1603848714084" duration="9781000" />
+      <workItem from="1603868537990" duration="6211000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1603507279939</created>
@@ -90,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603720464739</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="home">
+      <created>1603762589855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603762589855</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,17 +117,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="home" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="85" key="CommitChangelistDialog2" timestamp="1603720462481">
+    <state x="585" y="85" key="CommitChangelistDialog2" timestamp="1603762588931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603720462481" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603720469708">
+    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603762588931" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603763184806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603720469708" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603763184806" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603762658454">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603762658454" />
     <state x="766" y="226" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603720297241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="226" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603720297241" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603762580428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603762580428" />
   </component>
 </project>
