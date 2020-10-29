@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc4e9c8b-fd49-484f-b416-651f00197ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+    <list default="true" id="bc4e9c8b-fd49-484f-b416-651f00197ed3" name="Default Changelist" comment="blog">
+      <change afterPath="$PROJECT_DIR$/CSS/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/header-side.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -62,7 +65,10 @@
       <workItem from="1603762169149" duration="1611000" />
       <workItem from="1603782236065" duration="9226000" />
       <workItem from="1603848714084" duration="9781000" />
-      <workItem from="1603868537990" duration="6211000" />
+      <workItem from="1603868537990" duration="7072000" />
+      <workItem from="1603886596413" duration="6629000" />
+      <workItem from="1603934053173" duration="1912000" />
+      <workItem from="1603939970843" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1603507279939</created>
@@ -106,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603762589855</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="blog">
+      <created>1603874942466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603874942466</updated>
+    </task>
+    <task id="LOCAL-00008" summary="blog">
+      <created>1603875011310</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603875011310</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,28 +134,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home" />
-    <option name="LAST_COMMIT_MESSAGE" value="home" />
+    <MESSAGE value="blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="blog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="85" key="CommitChangelistDialog2" timestamp="1603762588931">
+    <state x="585" y="85" key="CommitChangelistDialog2" timestamp="1603875010698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603762588931" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603763184806">
+    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603875010698" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603935364623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603763184806" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603762658454">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603935364623" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603875016058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603762658454" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603875016058" />
     <state x="766" y="226" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603720297241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="226" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603720297241" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603762580428">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603897661948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603762580428" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603897661948" />
   </component>
 </project>
