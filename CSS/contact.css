@@ -1,0 +1,206 @@
+body{
+    /*font-family: 'Roboto', sans-serif;*/
+    background-color: #ede9e1;
+    font-family: 'Trispace', sans-serif;
+
+}
+body{
+    /*font-family: 'Roboto', sans-serif;*/
+    background-color: #ede9e1;
+    font-family: 'Trispace', sans-serif;
+
+}
+.header-box{
+    width: auto;
+    height: 500px;
+}
+.header-box-top{
+    width: auto;
+    height: 80px;
+    background-color: white;
+}
+.header-box-top img{
+    width: 200px;
+    margin-top: -68px;
+    margin-left: 50px;
+}
+.buy-now-button{
+    width: 120px;
+    height: 32px;
+    background-color: #dea932;
+    text-align: center;
+    border-radius: 35px;
+    float: right;
+    margin-top: 21px;
+    margin-right: 200px;
+}
+.buy-now-button a{
+    display: block;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buy-now-button:hover{
+    background-color: #0f0f0f;
+}
+.buy-now-button a:hover{
+    color: white;
+}
+.menu-box-top{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 25px;
+    margin-right: -256px;
+}
+.menu-box-top a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 15px;
+    display: block;
+    margin-top: 0;
+    float: left;
+}
+.menu-box-top i{
+    font-size: 25px;
+}
+.header-box-under{
+    width: auto;
+    height: 400px;
+    background-image: url("../image/background.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-box-under h1{
+    color: white;
+    text-align: center;
+    padding-top: 145px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.main-box{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.contact-box{
+    margin-top: 50px;
+    display: inline-block;
+    width: 570px;
+    height: auto;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-box img{
+    width: 570px;
+}
+.contact-title{
+
+}
+.contact-title h1{
+    color: #0f0f0f;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.contact-title p{
+    color: #0f0f0f;
+    font-size: 17px;
+}
+.form-control{
+
+}
+.contact-box label{
+    display: block;
+    margin-left: 50px;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #dea932;
+}
+.fullname{
+    margin-left: 50px;
+    width: 466px;
+}
+.email{
+    margin-left: 50px;
+    width: 466px;
+
+}
+.phone-number{
+    margin-left: 50px;
+    width: 466px;
+}
+.message{
+    margin-left: 50px;
+    width: 466px;
+}
+.button{
+    background-color: #dea932;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.footer-box{
+    width: auto;
+    height: 420px;
+    background-color: whitesmoke;
+    text-align:center ;
+    margin-top: 80px;
+}
+.footer-box img{
+    width: 300px;
+    display: inline-block;
+    margin-top: -50px;
+}
+.footer-box  p{
+    color: #0f0f0f9e;
+    font-size: 16px;
+    width: 600px;
+    display: block;
+    margin-top: -100px;
+    margin-left: 286px;
+    font-style: italic;
+}
+.list-menu-footer{
+    display: inline-block;
+}
+.list-menu-footer li{
+    list-style: none;
+    float: left;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+.list-menu-footer a{
+    color: #0000007a;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list-menu-footer a:hover{
+    color: #dea932;
+}
+.icon-social-footer{
+    margin-left: 513px;
+    margin-top: 45px;
+
+}
+.icon-social-footer i{
+    float: left;
+    margin-right: 20px;
+}
+.icon-social-footer a{
+    color: #0000007a ;
+    font-size: 23px;
+}
+.icon-social-footer a:hover{
+    color: #dea932;
+}
