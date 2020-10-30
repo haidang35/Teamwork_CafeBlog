@@ -1,9 +1,4 @@
-body{
-    /*font-family: 'Roboto', sans-serif;*/
-    background-color: #ede9e1;
-    font-family: 'Trispace', sans-serif;
 
-}
 body{
     /*font-family: 'Roboto', sans-serif;*/
     background-color: #ede9e1;
@@ -86,9 +81,13 @@ body{
     font-weight: bold;
 }
 .main-box{
+    background-image: url("../image/contact/background-contact-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: auto;
     height: auto;
     text-align: center;
+    margin-top: 30px;
 }
 .contact-box{
     margin-top: 50px;
@@ -97,6 +96,8 @@ body{
     height: auto;
     background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 120px;
+    border-radius: 10px;
 }
 .contact-box img{
     width: 570px;
@@ -154,7 +155,6 @@ body{
     height: 420px;
     background-color: whitesmoke;
     text-align:center ;
-    margin-top: 80px;
 }
 .footer-box img{
     width: 300px;
