@@ -25,9 +25,9 @@ body{
     margin-top: -172px;
     margin-left: 460px;
 }
-.list-nav span{
+.list-nav li{
     display: block;
-    margin-right: 35px;
+    margin-right: 50px;
     float: left;
 }
 .list-nav a{
@@ -45,7 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     float: right;
-    margin-top: -10px;
+    margin-top: -20px;
     transition: 0.7s;
 }
 .buy-button p{
@@ -214,18 +214,28 @@ body{
     margin-top: 30px;
 }
 .rm-b2-left{
-    background-color:#ca9318 ;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 13px;
+    padding-left: 0;
+    transition: 0.6s;
+}
+.rm-b2-left a:hover{
+    background-color: #0f0f0f;
+    transition: 0.6s;
+}
+.rm-b2-left a{
+    display: block;
     width: 180px;
     height: 50px;
+    padding-top: 12px;
     border-radius: 35px;
-    margin-top: 40px;
-}
-.rm-b2-left p{
+    background-color:#ca9318 ;
+    text-decoration: none;
     color: white;
     font-size: 18px;
     text-transform: uppercase;
-    padding-top: 13px;
-    padding-left: 36px;
+    font-weight: bold;
 }
 .img-box-2{
     width: 700px;
@@ -245,12 +255,16 @@ body{
     text-align: center;
 
 }
-.img1-b2-right h3{
+.img1-b2-right a{
+    text-decoration: none;
     color: white;
     font-size: 17px;
     text-align: center;
     display: block;
     margin-top: 50px;
+}
+.img1-b2-right a:hover{
+    color: #dea932;
 }
 .img1-b2-right p{
     color: white;
@@ -298,7 +312,7 @@ body{
 .p1-b3{
     color: #00000085;
     font-size: 16px;
-    text-decoration: inline;
+    text-decoration: none;
     font-family: 'Trispace', sans-serif;
     display: block;
     margin-top: 35px;
@@ -321,7 +335,7 @@ body{
     display: inline-block;
 }
 .icon-social{
-    font-size: 35px;
+    font-size: 28px;
     color: black;
     float: left;
     display: block;
@@ -373,6 +387,9 @@ body{
     font-family: 'Trispace', sans-serif;
     display: block;
     margin-top: 45px;
+}
+.product-box-4 a:hover{
+    color: #dea932;
 }
 .product-box-4 a{
     text-decoration: none;
@@ -438,6 +455,9 @@ div.container{
     font-size: 25px;
     color: black;
     font-weight: bold;
+}
+.latest-post a:hover{
+    color: #dea932;
 }
 .latest-post p{
     color: #0000006b;
@@ -594,6 +614,40 @@ div.container{
     font-size: 18px;
     padding-top: 5px;
 }
+.nav-shop{
+    position: relative;
+}
+.submenu-shop{
+    width: 190px;
+    height: 147px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -30px;
+    border-radius: 6px;
+    display: none;
+}
+.submenu-shop li{
+    list-style: none;
+    padding-top: 20px;
+    margin-left: -9px;
+    margin-right: 0;
+    padding-right: 10px;
+}
+.submenu-shop a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.submenu-shop a:hover{
+    color: #dea932;
+}
+.active .submenu-shop{
+    display: block;
+}
+
 
 
 

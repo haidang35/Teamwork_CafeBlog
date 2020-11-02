@@ -15,15 +15,36 @@
     <header class="header-box">
             <div class="container">
                  <section class="header-box-top">
-                        <img src="image/logo2.png">
-                        <nav class="list-nav">
-                            <span class="nav-button"><a href="home.html">HOME</a></span>
-                            <span class="nav-button"><a href="About-us.html">ABOUT</a></span>
-                            <span class="nav-button"><a href="#">SERVICES</a></span>
-                            <span class="nav-button"><a href="blog.html">BLOG</a></span>
-                            <span class="nav-button"><a href="shop.html">SHOP</a></span>
-                            <span class="nav-button"><a href="contact.html">CONTACT</a></span>
-                        </nav>
+                        <a href="home.html"><img src="image/logo2.png"></a>
+                        <ul class="list-nav">
+                            <li class="nav-button"><a href="home.html">HOME</a></li>
+                            <li class="nav-button"><a href="About-us.html">ABOUT</a></li>
+                            <li class="nav-button"><a href="services.html">SERVICES</a></li>
+                            <li class="nav-button"><a href="blog.html">BLOG</a></li>
+                            <li class="nav-button nav-shop" onmouseenter="subshop(this)"  onmouseleave="closesubshop(this)"><a href="shop.html">SHOP</a>
+                                <div class="submenu-shop">
+                                    <ul>
+                                        <li class="nav-button"><a href="#">Single Product</a></li>
+                                        <li class="nav-button" style="padding-right: 50px"><a href="#">Cart</a></li>
+                                        <li class="nav-button"><a href="#">Check out</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-button"><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                     <script type="text/javascript">
+                         function subshop(e){
+                              var items=document.getElementsByClassName("nav-shop");
+                             for (var i=0;i<items.length;i++){
+                                 items[i].classList.remove("active");
+                             }
+                             e.classList.add("active");
+                         }
+                         function closesubshop(e){
+                             e.classList.remove("active");
+                         }
+                     </script>
                         <div class="buy-button">
                             <a href="shop.html"><p>buy now</p></a>
                         </div>
@@ -34,7 +55,7 @@
                         Coffee Shop is the place where you can get flavorful coffee<br> strains from global elite brands and roasters at very affordable<br> price.
                     </p>
                     <div class="read-button">
-                        <a href="#"><p>Read more</p></a>
+                        <a href="About-us.html" target="_blank"><p>Read more</p></a>
                     </div>
 
                 </section>
@@ -54,7 +75,7 @@
                <div class="description-box-1">
                    <h1>WHO WE ARE</h1>
                    <p>We are a team of dedicated coffee fans who celebrate exceptional coffee brands and roasters by providing our guests the unique opportunity to try coffee drinks of the highest quality.</p>
-                   <a href="#"><div class="learnmore-button">
+                   <a href="About-us.html" target="_blank"><div class="learnmore-button">
                        <p>Learn more</p>
                    </div></a>
                </div>
@@ -66,7 +87,7 @@
                                    SERVICES</h1>
                                <p>We provide a variety of services both to our new and regular customers. If you can think of anything connected with coffee, then we can offer it at our Coffee Shop.</p>
                                <div class="rm-b2-left">
-                                   <p>read more</p>
+                                   <a href="services.html" target="_blank">read more</a>
                                </div>
                            </div>
 
@@ -76,22 +97,22 @@
                            <div class="row">
                                <div class="img1-b2-right col-md-6 img1-b2">
                                    <img src="image/right-b2-1.png">
-                                   <h3>SELECTED COFFEE BEANS</h3>
+                                   <a href="services.html" target="_blank">SELECTED COFFEE BEANS</a>
                                    <p>Enjoy the aroma of selected coffee beans available at our shop.</p>
                                </div>
                                <div class="img1-b2-right col-md-6 img2-b2">
                                    <img src="image/right-b2-2.png">
-                                   <h3>ELITE COFFEE</h3>
+                                   <a href="services.html" target="_blank">ELITE COFFEE</a>
                                    <p>Take a sip of Elite Coffee, and revel in the different tastes.</p>
                                </div>
                                <div class="img1-b2-right col-md-6 img3-b2">
                                    <img src="image/right-b2-3.png">
-                                   <h3>TASTY COFFEE</h3>
+                                   <a href="services.html" target="_blank">TASTY COFFEE</a>
                                    <p>At Coffee Shop you can find lots of tasty coffee flavors</p>
                                </div>
                                <div class="img1-b2-right col-md-6 img4-b2">
                                    <img src="image/right-b2-4.png">
-                                   <h3>COOKING COFFEE</h3>
+                                   <a href="services.html" target="_blank">COOKING COFFEE</a>
                                    <p>If you prefer to cook coffee, we have something special for you.</p>
                                </div>
                            </div>
@@ -109,9 +130,9 @@
                       <h2>Anthony Smith</h2>
                       <p class="p2-b3">"I love the coffee and atmosphere at your coffee shop. I attend a meeting there on most Monday mornings. When I arrive, I’m greeted with a smile and the Barista always takes the time to fix my coffee just as I want it. My favorite drink is the Carmel Mocha."</p>
                       <div class="icon-box-3">
-                          <a href="#"><i class="fab fa-facebook icon-social"></i></a>
-                          <a href="#"><i class="fab fa-instagram icon-social"></i></a>
-                          <a href="#"><i class="fab fa-pinterest icon-social"></i></a>
+                          <a href="home.html" target="_blank"><i class="fab fa-facebook-f icon-social"></i></a>
+                          <a href="home.html" target="_blank"><i class="fab fa-twitter icon-social"></i></a>
+                          <a href="home.html" target="_blank"><i class="fab fa-linkedin-in icon-social"></i></a>
                       </div>
                   </div>
 
@@ -157,7 +178,7 @@
                     <a href="#">Advantages and Disadvantages of Coffee</a>
                     <p>It seems that one minute drinking coffee is bad for you, the next minute coffee is good for you. Still now with all the evidence coming to light that it's good for your health, it doesn't take...</p>
                     <div class="read-more-button-b5">
-                        <a href="#">Read more</a>
+                        <a href="blog.html" target="_blank">Read more</a>
                     </div>
                     <div class="icon-post">
 
