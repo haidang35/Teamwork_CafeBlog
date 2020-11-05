@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc4e9c8b-fd49-484f-b416-651f00197ed3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/check-out.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/header-box-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check-out.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/espresso.html" beforeDir="false" afterPath="$PROJECT_DIR$/espresso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,11 @@
       <workItem from="1604105914416" duration="2799000" />
       <workItem from="1604112249162" duration="8024000" />
       <workItem from="1604278315590" duration="5388000" />
-      <workItem from="1604300554757" duration="13734000" />
+      <workItem from="1604300554757" duration="22856000" />
+      <workItem from="1604366408108" duration="252000" />
+      <workItem from="1604366674052" duration="49000" />
+      <workItem from="1604366737378" duration="1677000" />
+      <workItem from="1604476935570" duration="4155000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1603507279939</created>
@@ -179,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604314394417</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1604314497765</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604314497765</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,22 +212,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="161" key="#Plugins" timestamp="1604366683824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1604366683824" />
     <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603965772928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603965772928" />
-    <state x="585" y="85" key="CommitChangelistDialog2" timestamp="1604314393881">
+    <state x="585" y="85" key="CommitChangelistDialog2" timestamp="1604314497167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604314393881" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604107494757">
+    <state x="585" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604314497167" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604367612325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604107494757" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604314397454">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604367612325" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604314501338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604314397454" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604314501338" />
     <state x="766" y="226" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603720297241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

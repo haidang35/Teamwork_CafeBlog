@@ -1,0 +1,194 @@
+body{
+    /*font-family: 'Roboto', sans-serif;*/
+    background-color: #ede9e1;
+    font-family: 'Trispace', sans-serif;
+
+}
+.header-box{
+    width: auto;
+    height: auto;
+}
+.header-box-top{
+    width: auto;
+    height: 80px;
+    background-color: white;
+}
+.header-box-top img{
+    width: 200px;
+    margin-top: -68px;
+    margin-left: 50px;
+}
+.buy-now-button{
+    width: 120px;
+    height: 32px;
+    background-color: #dea932;
+    text-align: center;
+    border-radius: 35px;
+    float: right;
+    margin-top: 21px;
+    margin-right: 200px;
+}
+.buy-now-button a{
+    display: block;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buy-now-button:hover{
+    background-color: #0f0f0f;
+}
+.buy-now-button a:hover{
+    color: white;
+}
+.main-box{
+    width: auto;
+    height: auto;
+}
+.menu-box-top{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 25px;
+    margin-right: -256px;
+}
+.menu-box-top a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 15px;
+    display: block;
+    margin-top: 0;
+    float: left;
+}
+.menu-box-top i{
+    font-size: 25px;
+}
+.back-to-box{
+    width: 75px;
+    height: auto;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0f0f0f;
+}
+.back-to-box i{
+    color: #0f0f0f;
+    font-size: 20px;
+}
+.back-to-box a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.back-to-box a:hover{
+    color: #dea932;
+}
+.login-discount-bar{
+    margin-top: 30px;
+}
+.login-discount-bar span{
+    color: #0f0f0f;
+    font-size: 14px;
+}
+.login-bar{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.login-bar a{
+    text-decoration: none;
+    color: #dea932;
+    font-size: 14px;
+}
+.discount-bar{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.discount-bar a{
+    text-decoration: none;
+    color: #dea932;
+    font-size: 14px;
+}
+.billing-box{
+    width: 610px;
+    height: 510px;
+    margin-top: 150px;
+}
+.title-billing{
+    color: #0f0f0f;
+    font-size: 30px;
+    text-align: center;
+}
+.first-name-bar{
+    float: left;
+    margin-right: 15px;
+}
+.first-name-bar input{
+    width: 300px;
+    height: 40px;
+}
+.last-name-bar input{
+    width: 295px;
+    height: 40px;
+}
+.company-bar input{
+    width: 100%;
+    height: 40px;
+}
+.email-address-bar{
+    float: left;
+    margin-right: 15px;
+}
+.email-address-bar input{
+    width: 300px;
+    height: 40px;
+}
+.phone-bar input{
+    width: 295px;
+    height: 40px;
+}
+.Address-bar input{
+    width: 100%;
+    height: 40px;
+}
+.apartment-bar input{
+    width: 100%;
+    height: 40px;
+}
+.country-bar{
+    float: left;
+    margin-right: 15px;
+}
+.country-bar input{
+    width: 300px;
+    height: 40px;
+}
+.postcode-bar input{
+    width: 295px;
+    height: 40px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.check-box a{
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    color: #0f0f0f;
+    font-size: 14px;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
