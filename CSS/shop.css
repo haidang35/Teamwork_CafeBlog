@@ -166,6 +166,8 @@ body{
 .product-box a{
     color: #0f0f0f;
     font-size: 19px;
+    width: auto;
+    height: 54px;
     display: block;
     margin-top: 45px;
     text-decoration: none;
