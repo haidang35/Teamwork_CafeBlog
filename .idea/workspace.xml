@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc4e9c8b-fd49-484f-b416-651f00197ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/blog-post-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/testimonials.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/footer-box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/products-shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/testimonials-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/testimonials-3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-post-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testimonials.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/About-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/About-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/about-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/check-out.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/check-out.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/check-out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/espresso.html" beforeDir="false" afterPath="$PROJECT_DIR$/espresso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +85,8 @@
       <workItem from="1604733744332" duration="3851000" />
       <workItem from="1604843761814" duration="600000" />
       <workItem from="1604886127909" duration="6639000" />
+      <workItem from="1604926927126" duration="1681000" />
+      <workItem from="1604971003171" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1603507279939</created>
@@ -262,10 +248,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="35" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604539194596" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604734921800">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604927826038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604734921800" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604927826038" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604539200981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
