@@ -81,75 +81,95 @@ body{
     font-weight: bold;
 }
 .main-box{
-    background-image: url("../image/contact/background-contact-2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: auto;
     height: auto;
     text-align: center;
-    margin-top: 30px;
+}
+.map-address{
+}
+.map{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    z-index: 1;
+}
+.background-blur{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 100%;
 }
 .contact-box{
-    margin-top: 150px;
-    display: inline-block;
-    width: 570px;
-    height: auto;
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 120px;
-    border-radius: 10px;
-}
-.contact-box img{
-    width: 570px;
-}
-.contact-title{
-
-}
-.contact-title h1{
-    color: #0f0f0f;
-    font-size: 28px;
-    text-transform: uppercase;
-}
-.contact-title p{
-    color: #0f0f0f;
-    font-size: 17px;
-}
-.form-control{
-
-}
-.contact-box label{
-    display: block;
-    margin-left: 50px;
+    position: absolute;
+    width: 770px;
+    height: 500px;
+    background-color: white;
+    z-index: 2;
+    margin-top: -700px;
+    margin-left: 180px;
+    box-shadow: 0 0 5px #2aabd2;
     text-align: left;
-    margin-top: 20px;
-    font-size: 16px;
-    color: #dea932;
+    padding: 70px 125px;
 }
-.fullname{
-    margin-left: 50px;
-    width: 466px;
+.contact-box h2{
+    color: #0f0f0f;
+    font-size: 20px;
 }
-.email{
-    margin-left: 50px;
-    width: 466px;
-
+.contact-box p{
+    color: #0f0f0f9c;
+    font-size: 14px;
+    width: 170px;
 }
-.phone-number{
-    margin-left: 50px;
-    width: 466px;
+.information-box{
+    float: left;
+    border-right: 1px solid #0f0f0f2b;
+    padding-right:90px;
 }
-.message{
-    margin-left: 50px;
-    width: 466px;
+.info-address{
+    padding-bottom: 35px;
+    border-bottom: 1px solid #0f0f0f2b;
 }
-.button{
-    background-color: #dea932;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 16px;
+.opening-hours{
+    padding-top: 35px;
+}
+.get-in-touch{
+    margin-left: 350px;
+}
+.form-group{
     margin-top: 25px;
-    margin-bottom: 30px;
 }
+.form-group label{
+    color: #dea932;
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-group input{
+    width: 170px;
+    height: 40px;
+}
+.get-in-touch a{
+    text-decoration: none;
+    color: white;
+}
+.get-in-touch a:hover{
+}
+.send-request-button{
+    display: block;
+    margin-top: 35px;
+    color: white;
+    background-color: #dea932;
+    text-align: center;
+    width: 170px;
+    height: 42px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 35px;
+}
+.send-request-button:hover{
+    background-color: #0f0f0f;
+    color: white;
+}
+
 .footer-box{
     width: auto;
     height: 420px;

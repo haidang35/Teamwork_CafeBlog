@@ -104,6 +104,44 @@ body{
     color: #ffffffb8;
     text-decoration: none;
 }
+.add-list-box{
+    float: right;
+    padding-right: 48px;
+    position: relative;
+}
+.sub-category{
+    position: absolute;
+    width: 170px;
+    height: 100px;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 11px;
+    box-shadow: 0 0 3px #0f0f0f47;
+    z-index: 2;
+    display: none;
+}
+.sub-category ul{
+    padding-left: 10px;
+    margin: 0;
+}
+.sub-category li{
+    list-style: none;
+    padding-top: 10px;
+    margin-right: 15px;
+    width: 100%;
+}
+.sub-category a{
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: -15px;
+}
+.sub-category ul li:hover{
+    color: #dea932;
+}
+.active .sub-category{
+    display: block;
+}
 .sortby span{
     color: #ffffffb8;
     font-size: 17px;
@@ -114,6 +152,44 @@ body{
     font-weight: bold;
     color:#ffffffb8;
     text-decoration: none;
+}
+.add-list-box-2{
+    float: right;
+    padding-right: 723px;
+    position: relative;
+}
+.sub-sort{
+    position: absolute;
+    width: 170px;
+    height: 100px;
+    background-color: white;
+    margin-left: 0px;
+    margin-top: 11px;
+    box-shadow: 0 0 3px #0f0f0f47;
+    z-index: 2;
+    display: none;
+}
+.sub-sort ul{
+    padding-left: 10px;
+    margin: 0;
+}
+.sub-sort li{
+    list-style: none;
+    padding-top: 10px;
+    margin-right: 15px;
+    width: 100%;
+}
+.sub-sort a{
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: -15px;
+}
+.sub-sort ul li:hover{
+    color: #dea932;
+}
+.active .sub-sort{
+    display: block;
 }
 .cart-box{
     float: right;
@@ -143,12 +219,11 @@ body{
     padding-left: 4px;
    display: block;
     margin-top: -2px;
-
 }
 .main-box{
     width: auto;
     height: auto;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 .product-box{
     background-color: white;
@@ -158,6 +233,7 @@ body{
     padding-top: 30px;
     margin-right: 20px;
     margin-bottom: 35px;
+    z-index: 1;
 }
 .product-box img{
     padding-top: 30px;

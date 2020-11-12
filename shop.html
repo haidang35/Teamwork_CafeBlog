@@ -28,13 +28,55 @@
            <div class="container">
                <div class="category">
                    <span>CATEGORY:</span>
-                   <a href="#">ALL</a>
-                   <a href="#"><i class="fas fa-caret-down"></i></a>
+                      <div class="add-list-box" onclick="subcate(this)" onclose="Closesubcate(this)">
+                          <a href="#">ALL</a>
+                          <a href="#"><i class="fas fa-caret-down"></i></a>
+                          <div class="sub-category">
+                              <ul>
+                                  <a href="#"><li>Category 1</li></a>
+                                  <a href="#"><li>Category 2</li></a>
+                                  <a href="#"><li>Category 3</li></a>
+                              </ul>
+                          </div>
+                      </div>
+                   <script type="text/javascript">
+                       function subcate(e){
+                          var items=document.getElementsByClassName("add-list-box");
+                          for(var i=0;i<items.length;i++){
+                              items[i].classList.remove("active");
+                          }
+                          e.classList.add("active");
+                       }
+                       function Closesubcate(e){
+                           e.classList.remove("active");
+                       }
+                   </script>
                </div>
                <div class="sortby">
                    <span>SORT BY:</span>
-                   <a href="#">Price</a>
-                   <a href="#"><i class="fas fa-caret-down"></i></a>
+                   <div class="add-list-box-2" onclick="subsort(this)">
+                       <a href="#">Price</a>
+                       <a href="#"><i class="fas fa-caret-down"></i></a>
+                       <div class="sub-sort" >
+                           <ul>
+                               <a href="#"><li>Type 1</li></a>
+                               <a href="#"><li>Type 2</li></a>
+                               <a href="#"><li>Type 3</li></a>
+                           </ul>
+                       </div>
+                   </div>
+                   <script type="text/javascript">
+                       function subsort(s){
+                           var items=document.getElementsByClassName("add-list-box-2");
+                           for(var i=0;i<items.length;i++){
+                               items[i].classList.remove("active");
+                           }
+                           s.classList.add("active");
+                       }
+                       function Closesubsort(s){
+                           s.classList.remove("active");
+                       }
+                   </script>
                </div>
                <div class="cart-box">
                    <a href="cart.html" target="_blank"><i class="fas fa-shopping-cart"></i></a>
