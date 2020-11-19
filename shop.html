@@ -11,16 +11,21 @@
 </head>
 <body>
     <header class="header-box">
-        <section class="header-box-top">
-            <a href="home.html"><img src="image/blog/logo%20cafe%20blog.png"></a>
-           <div class="buy-now-button">
-            <a href="#">buy now</a>
-           </div>
-           <div class="menu-box-top">
-            <a href="#">Menu</a>
-            <a href="#"><i class="fas fa-bars"></i></a>
-           </div>
+        <section class="header-box-top" id="header-box-top">
+            <script type="text/javascript">
+                function opensubmenu(e){
+                    var items=document.getElementsByClassName("menu-box-top");
+                    for(var i=0;i<items.length;i++){
+                        items[i].classList.remove("active");
+                    }
+                    e.classList.add("active");
+                }
+                function closesubmenu(e){
+                    e.classList.remove("active");
+                }
+            </script>
         </section>
+        <script type="text/javascript" src="Js/header-box-top.js"></script>
         <section class="header-box-under">
             <h1>Shop</h1>
         </section>
@@ -87,6 +92,10 @@
         </section>
     </header>
     <section class="main-box">
+        <a href="#" class="contact-bar">
+            <span>Chat now</span>
+            <i class="far fa-comment-alt"></i>
+        </a>
          <div class="container">
              <div class="row" id="products">
                  <script type="text/javascript" src="Js/products-shop.js"></script>

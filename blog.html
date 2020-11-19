@@ -10,9 +10,31 @@
     <link rel="stylesheet" href="CSS/blog.css">
 </head>
 <body>
-<header id="header-box"></header>
-<script type="text/javascript" src="Js/header-side.js"></script>
+<header class="header-box">
+    <section id="header-box-top">
+        <script type="text/javascript">
+            function opensubmenu(e){
+                var items=document.getElementsByClassName("menu-box-top");
+                for(var i=0;i<items.length;i++){
+                    items[i].classList.remove("active");
+                }
+                e.classList.add("active");
+            }
+            function closesubmenu(e){
+                e.classList.remove("active");
+            }
+        </script>
+    </section>
+    <section class="header-box-under">
+        <h1>About us</h1>
+    </section>
+    <script type="text/javascript" src="Js/header-box-top.js"></script>
+</header>
    <section class="main-box">
+       <a href="#" class="contact-bar">
+           <span>Chat now</span>
+           <i class="far fa-comment-alt"></i>
+       </a>
        <article class="content-box-1">
              <h1>CLASSIC</h1>
              <p>Coffee Shop is not only a place where you can get a hot and tasty coffee. Our team members also write interesting articles on everything concerning coffee.</p>

@@ -11,7 +11,20 @@
 </head>
 <body>
     <header>
-        <div id="header-box-top"></div>
+        <div id="header-box-top">
+            <script type="text/javascript">
+                function opensubmenu(e){
+                    var items=document.getElementsByClassName("menu-box-top");
+                    for(var i=0;i<items.length;i++){
+                        items[i].classList.remove("active");
+                    }
+                    e.classList.add("active");
+                }
+                function closesubmenu(e){
+                    e.classList.remove("active");
+                }
+            </script>
+        </div>
         <script type="text/javascript" src="Js/header-box-top.js"></script>
         <div class="header-box-under">
               <h1>Testimonials</h1>

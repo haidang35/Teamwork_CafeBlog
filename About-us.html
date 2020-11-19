@@ -16,19 +16,29 @@
             <div class="buy-now-button">
                 <a href="shop.html">buy now</a>
             </div>
-            <div class="menu-box-top">
+            <div class="menu-box-top" onclick="opensubmenu(this)" ondblclick="closesubmenu(this)">
                 <a href="#">Menu</a>
                 <a href="#"><i class="fas fa-bars"></i></a>
-                <div class="sub-menu">
-                   <ul>
-                       <a href="#"><li>Home</li></a><br>
-                       <a href="#"><li>About us</li></a><br>
-                       <a href="#"><li>Services</li></a><br>
-                       <a href="#"><li>Blog</li></a><br>
-                       <a href="#"><li>Shop</li></a><br>
-                       <a href="#"><li>Contact</li></a>
-                   </ul>
-                </div>
+                <ul class="sub-menu">
+                   <li class="home-submenu">Home</li>
+                   <li class="about-submenu">About</li>
+                   <li class="services-submenu">Services</li>
+                   <li class="blog-submenu">Blog</li>
+                   <li class="shop-submenu">Shop</li>
+                   <li class="contact-submenu">Contact</li>
+                </ul>
+                <script type="text/javascript">
+                    function opensubmenu(e){
+                        var items=document.getElementsByClassName("menu-box-top");
+                        for(var i=0;i<items.length;i++){
+                            items[i].classList.remove("active");
+                        }
+                        e.classList.add("active");
+                    }
+                    function closesubmenu(e){
+                        e.classList.remove("active");
+                    }
+                </script>
             </div>
         </section>
         <section class="header-box-under">
@@ -36,6 +46,13 @@
         </section>
     </header>
     <section class="main-box">
+        <div>
+            <a href="#" class="contact-bar">
+                <span>Chat now</span>
+                <i class="far fa-comment-alt"></i>
+            </a>
+        </div>
+
         <div class="content-box-1">
               <div class="img-box-1">
                   <img src="image/about%20us/img-box-1-1.jpg">

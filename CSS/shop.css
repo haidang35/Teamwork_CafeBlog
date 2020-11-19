@@ -64,6 +64,30 @@ body{
 .menu-box-top i{
     font-size: 25px;
 }
+.sub-menu{
+    width: 200px;
+    height: 400px;
+    background-color: #16151540;
+    position: absolute;
+    margin-top: 55px;
+    padding-top: 30px;
+    margin-left: -30px;
+    display: none;
+}
+.sub-menu li{
+    list-style: none;
+    color: white;
+    font-size: 23px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+.sub-menu .shop-submenu{
+    color: #dea932;
+}
+.active .sub-menu{
+    display: block;
+}
 .header-box-under{
     width: auto;
     height: 400px;
@@ -224,6 +248,37 @@ body{
     width: auto;
     height: auto;
     padding-top: 120px;
+}
+.contact-bar{
+    width: 250px;
+    height: 40px;
+    background-color: #27bae7;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+.contact-bar:hover{
+    transition: 0.3s;
+    bottom: 5px;
+    background-color: #085b6d;
+}
+.contact-bar span{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-left: 20px;
+    float: left;
+}
+.contact-bar i{
+    color: white;
+    font-size: 25px;
+    float: right;
+    padding-top: 9px;
+    padding-right: 15px;
 }
 .product-box{
     background-color: white;

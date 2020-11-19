@@ -10,7 +10,20 @@
     <link rel="stylesheet" href="CSS/blog-post-1.css">
 </head>
 <body>
-   <header id="header-box-top"></header>
+   <header id="header-box-top">
+       <script type="text/javascript">
+           function opensubmenu(e){
+               var items=document.getElementsByClassName("menu-box-top");
+               for(var i=0;i<items.length;i++){
+                   items[i].classList.remove("active");
+               }
+               e.classList.add("active");
+           }
+           function closesubmenu(e){
+               e.classList.remove("active");
+           }
+       </script>
+   </header>
    <script type="text/javascript" src="Js/header-box-top.js"></script>
    <section class="main-box">
        <div class="container">
