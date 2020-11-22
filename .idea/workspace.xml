@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="bc4e9c8b-fd49-484f-b416-651f00197ed3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/About-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/About-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/about-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/chatbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/chatbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/contact-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/contact-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +119,10 @@
       <workItem from="1605751683595" duration="998000" />
       <workItem from="1605752691371" duration="2655000" />
       <workItem from="1605758190799" duration="3283000" />
+      <workItem from="1605769022155" duration="524000" />
+      <workItem from="1605775911504" duration="1922000" />
+      <workItem from="1605960529854" duration="1579000" />
+      <workItem from="1606004586422" duration="3674000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1603507279939</created>
@@ -289,10 +305,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="35" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605152553475" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605769354849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605769354849" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605749552447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605749552447" />
+    <state x="807" y="428" key="VCS.ChangelistChooser" timestamp="1605769081600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="807" y="428" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605769081600" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605152558471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="766" y="226" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603720297241" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603897661948">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605769028763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603897661948" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605769028763" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604278567925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

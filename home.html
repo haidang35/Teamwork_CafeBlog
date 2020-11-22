@@ -63,16 +63,16 @@
 
     </header>
     <section class="main-box" >
-        <div class="contact-box">
+        <div class="contact-box" onclick="openchatbox(this); closecontactbar(this)" >
             <a href="#" class="contact-bar">
                 <span>Chat now</span>
                 <i class="far fa-comment-alt"></i>
             </a>
             <div class="chat-box">
                 <div class="chat-box-top">
-                    <a href="#"><i class="fas fa-ellipsis-h dots-chat"></i></a>
+                    <a href="#"><i class="fas fa-ellipsis-h dots-chat" ></i></a>
                     <span>Welcome to LiveChat</span>
-                    <a href="#"><i class="fas fa-minus minus-chat"></i></a>
+                    <a href=""><i class="fas fa-minus minus-chat" onclick="closechatbox(this)"></i></a>
                 </div>
                 <div class="form-group input-box">
                     <p>Welcome to Sales Chat! Please fill in the form below before starting the chat.</p>
@@ -94,14 +94,13 @@
                 function closechatbox(e){
                     e.classList.remove("active");
                 }
-            </script>
-            <div class="buy-button">
-                <a href="shop.html"><p>buy now</p></a>
-            </div>
+                function closecontactbar(e){
+                    e.classList.add("active");
+                }
             </script>
         </div>
 
-           <div class=" content-box-1">
+            <div class=" content-box-1">
               <img src="image/content-box-1-1.jpg" width="300" height="460">
               <img src="image/content-box-1-2.jpg" width="300" height="460">
               <img src="image/content-box-1-3.jpg" width="300" height="460">

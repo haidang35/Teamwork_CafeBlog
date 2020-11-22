@@ -108,7 +108,6 @@ body{
     height: auto;
     text-align: center;
     z-index: 2;
-
 }
 .contact-bar{
     width: 250px;
@@ -120,6 +119,9 @@ body{
     bottom: 0;
     border-radius: 5px;
     transition: 0.7s;
+}
+.active .contact-bar{
+    display: none;
 }
 .contact-bar:hover{
     transition: 0.3s;
@@ -140,6 +142,70 @@ body{
     float: right;
     padding-top: 9px;
     padding-right: 15px;
+}
+.chat-box{
+    width: 385px;
+    height: 415px;
+    background-color: #ece9e9;
+    position:fixed ;
+    right: 0;
+    bottom: 0;
+    display: none;
+    text-align: left;
+}
+.active .chat-box{
+    display: block;
+}
+.chat-box-top{
+    width: 100%;
+    height: 42px;
+    background-color: #2aabd2;
+}
+.chat-box-top span{
+    padding-left: 59px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.dots-chat{
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 11px;
+}
+.minus-chat{
+    color: white;
+    font-size: 18px;
+    padding-left: 40px;
+}
+.input-box{
+    width: 330px;
+    height: 325px ;
+    border: 1px solid #00000026;
+    padding: 20px 15px;
+    border-radius: 5px;
+    margin-left: 27px;
+    margin-top: 30px;
+}
+.input-box input{
+    height: 38px;
+}
+.start-chat-button{
+    color: white;
+    background-color: #9bdb4d;
+    font-size: 18px;
+    padding: 10px 69px;
+    text-decoration: none;
+    display: block;
+    margin-top: 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.start-chat-button:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #599811;
+    transition: 0.5s;
 }
 .title-box-1{
     display: inline-block;

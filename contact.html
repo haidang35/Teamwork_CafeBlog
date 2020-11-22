@@ -31,10 +31,42 @@
     </section>
 </header>
 <section class="main-box">
-    <a href="#" class="contact-bar">
-        <span>Chat now</span>
-        <i class="far fa-comment-alt"></i>
-    </a>
+    <div class="contact-box-1" onclick="openchatbox(this); closecontactbar(this)" >
+        <a href="#" class="contact-bar">
+            <span>Chat now</span>
+            <i class="far fa-comment-alt"></i>
+        </a>
+        <div class="chat-box">
+            <div class="chat-box-top">
+                <a href="#"><i class="fas fa-ellipsis-h dots-chat" ></i></a>
+                <span>Welcome to LiveChat</span>
+                <a href=""><i class="fas fa-minus minus-chat" onclick="closechatbox(this)"></i></a>
+            </div>
+            <div class="form-group input-box">
+                <p>Welcome to Sales Chat! Please fill in the form below before starting the chat.</p>
+                <label>Name:<span style="color: red">*</span></label><br>
+                <input type="text" name="Name" class="form-control"><br>
+                <label>Email:<span style="color: red">*</span></label><br>
+                <input type="email" name="email" class="form-control">
+                <a href="#" class="start-chat-button">Start the Chat</a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function openchatbox(e){
+                var items=document.getElementsByClassName("contact-box-1");
+                for (var i=0;i<items.length;i++){
+                    items[i].classList.remove("active");
+                }
+                e.classList.add("active");
+            }
+            function closechatbox(e){
+                e.classList.remove("active");
+            }
+            function closecontactbar(e){
+                e.classList.add("active");
+            }
+        </script>
+    </div>
     <div class="map-address">
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46295.341886593815!2d-96.77798505878935!3d43.5136230302819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc56c46ad5832b1d3!2sAll%20Day%20Caf%C3%A9!5e0!3m2!1svi!2s!4v1605060472812!5m2!1svi!2s"frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
@@ -59,9 +91,9 @@
                   <p>Leave your name and phone number, and we’ll contact you.</p>
                   <div class="form-group">
                       <label>Full Name *</label><br>
-                      <input name="fullname" type="text" class="form-control"><br>
+                      <input name="fullname" type="text" class="form-control input-box-2"><br>
                       <label>Telephone</label><br>
-                      <input name="phone" type="tel" class="form-control"></input>
+                      <input name="phone" type="tel" class="form-control input-box-2">
                   </div>
                   <a href="#" class="send-request-button">Send Request</a>
               </div>

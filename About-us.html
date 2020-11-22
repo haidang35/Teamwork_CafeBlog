@@ -46,11 +46,57 @@
         </section>
     </header>
     <section class="main-box">
-        <div>
+        <div class="contact-box" onclick="openchatbox(this); closecontactbar(this)" >
             <a href="#" class="contact-bar">
                 <span>Chat now</span>
                 <i class="far fa-comment-alt"></i>
             </a>
+            <div class="chat-box">
+                <div class="chat-box-top">
+                    <a href="#"><i class="fas fa-ellipsis-h dots-chat" ></i></a>
+                    <span>Welcome to LiveChat</span>
+                    <a href=""><i class="fas fa-minus minus-chat" onclick="closechatbox(this)"></i></a>
+                </div>
+                <div class="form-group input-box">
+                    <p>Welcome to Sales Chat! Please fill in the form below before starting the chat.</p>
+                    <label>Name:<span style="color: red">*</span></label><br>
+                    <input type="text" name="Name" class="form-control"><br>
+                    <label>Email:<span style="color: red">*</span></label><br>
+                    <input type="email" name="email" class="form-control">
+                    <a href="#" class="start-chat-button">Start the Chat</a>
+                </div>
+            </div>
+            <script type="text/javascript">
+                function openchatbox(e){
+                    var items=document.getElementsByClassName("contact-box");
+                    for (var i=0;i<items.length;i++){
+                        items[i].classList.remove("active");
+                    }
+                    e.classList.add("active");
+                }
+                function closechatbox(e){
+                    e.classList.remove("active");
+                }
+                function closecontactbar(e){
+                    e.classList.add("active");
+                }
+            </script>
+        </div>
+        <script type="text/javascript">
+            function openchatbox(e){
+                var items=document.getElementsByClassName("contact-box");
+                for (var i=0;i<items.length;i++){
+                    items[i].classList.remove("active");
+                }
+                e.classList.add("active");
+            }
+            function closechatbox(e){
+                e.classList.remove("active");
+            }
+            function closecontactbar(e){
+                e.classList.add("active");
+            }
+        </script>
         </div>
 
         <div class="content-box-1">
