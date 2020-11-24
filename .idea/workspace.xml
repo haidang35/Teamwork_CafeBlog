@@ -5,18 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/About-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/About-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/about-us.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/chatbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/chatbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/shop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/contact-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/contact-bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +110,8 @@
       <workItem from="1605769022155" duration="524000" />
       <workItem from="1605775911504" duration="1922000" />
       <workItem from="1605960529854" duration="1579000" />
-      <workItem from="1606004586422" duration="3674000" />
+      <workItem from="1606004586422" duration="6677000" />
+      <workItem from="1606180114566" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1603507279939</created>
@@ -278,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605152554037</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update">
+      <created>1606008683555</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606008683556</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,10 +297,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603965772928" />
-    <state x="585" y="35" key="CommitChangelistDialog2" timestamp="1605152553475">
+    <state x="585" y="35" key="CommitChangelistDialog2" timestamp="1606008682330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="35" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605152553475" />
+    <state x="585" y="35" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606008682330" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605769354849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,10 +313,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="807" y="428" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605769081600" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605152558471">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606008837376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605152558471" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606008837376" />
     <state x="766" y="226" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603720297241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

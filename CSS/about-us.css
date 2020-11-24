@@ -318,10 +318,25 @@ body{
     font-size: 15px;
     font-style: italic;
 }
-.star-rate{
-    padding-top: 28px;
-    margin-left: 250px;
-    color: #dea932;
+.star-rate-reviewer{
+    width: 100px;
+    height: 60px;
+    padding-top: 25px;
+    margin-left: 231px;
+}
+.star-rate-off-review{
+    width: 100px;
+    height: 20px;
+    background-image: url("../image/star-rate/star-off.png");
+    background-repeat: repeat-x;
+    background-size: 20px 20px;
+}
+.star-rate-off-review .star-rate-on-review{
+    float: left;
+    height: 20px;
+    background-image: url("../image/star-rate/star-on.png");
+    background-repeat: repeat-x;
+    background-size: 20px 20px;
 }
 .icon-social{
     margin-top: 35px;
